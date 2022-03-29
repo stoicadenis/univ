@@ -1,0 +1,10 @@
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\bin\Debug\ex6.exe.config
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\bin\Debug\ex6.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\bin\Debug\ex6.pdb
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.Form1.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.Properties.Resources.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex6\ex6\obj\Debug\ex6.pdb
