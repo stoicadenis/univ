@@ -1,0 +1,4 @@
+Stoica Denis
+ID: 5 Nume: Tom Ford
+Cantitate: 2
+Perioada de retur este de 14 zile incepand cu data de: 05-Ian-2022

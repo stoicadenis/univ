@@ -1,0 +1,4 @@
+alex alex
+ID: 1 Nume: Bleu de Chanel
+Cantitate: 1
+Perioada de retur este de 14 zile incepand cu data de: 02-Ian-2022
