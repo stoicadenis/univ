@@ -1,0 +1,11 @@
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\bin\Debug\Exemplu.exe.config
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\bin\Debug\Exemplu.exe
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\bin\Debug\Exemplu.pdb
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\ex2.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\Exemplu.Form1.resources
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\Exemplu.Form2.resources
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\Exemplu.Properties.Resources.resources
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\ex2.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\ex2.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\Exemplu.exe
+C:\Users\Denis\Desktop\MTP\LAB5\Exemplu\Exemplu\obj\Debug\Exemplu.pdb

@@ -1,0 +1,22 @@
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\bin\Debug\Exemplu.exe.config
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\bin\Debug\Exemplu.exe
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\bin\Debug\Exemplu.pdb
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.csprojAssemblyReference.cache
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.Form1.resources
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.Form2.resources
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.Properties.Resources.resources
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.csproj.GenerateResource.cache
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.csproj.CoreCompileInputs.cache
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.exe
+E:\Master - Anul 2 Sem1\Tutor MTP\Laborator 5\Exemplu\Exemplu\obj\Debug\Exemplu.pdb
+C:\Users\Denis\Desktop\Exemplu\Exemplu\bin\Debug\Exemplu.exe.config
+C:\Users\Denis\Desktop\Exemplu\Exemplu\bin\Debug\Exemplu.exe
+C:\Users\Denis\Desktop\Exemplu\Exemplu\bin\Debug\Exemplu.pdb
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.Form1.resources
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.Form2.resources
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.Properties.Resources.resources
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.exe
+C:\Users\Denis\Desktop\Exemplu\Exemplu\obj\Debug\Exemplu.pdb

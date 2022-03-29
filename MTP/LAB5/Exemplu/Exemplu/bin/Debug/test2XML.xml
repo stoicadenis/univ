@@ -1,0 +1,27 @@
+<testGrila>
+	<intrebare>
+		<nrIntrebare>1</nrIntrebare>
+		<tipIntrebare>multiple</tipIntrebare>
+		<textIntrebare>intrebare 1?</textIntrebare>
+		<varianteRaspuns>
+			<varianta>varianta 1 raspuns</varianta>
+			<varianta>varianta 2 raspuns</varianta>
+			<varianta>varianta 3 raspuns</varianta>
+		</varianteRaspuns>
+		<linkPoza>test.jpg</linkPoza>
+		<raspunsuriCorecte>1,3</raspunsuriCorecte>
+	</intrebare>
+	<intrebare>
+		<nrIntrebare>2</nrIntrebare>
+		<tipIntrebare>single</tipIntrebare>
+		<textIntrebare>intrebare 2?</textIntrebare>
+		<varianteRaspuns>
+			<varianta>varianta 1 raspuns</varianta>
+			<varianta>varianta 2 raspuns</varianta>
+			<varianta>varianta 3 raspuns</varianta>
+			<varianta>varianta 4 raspuns</varianta>
+		</varianteRaspuns>
+		<linkPoza>0</linkPoza>
+		<raspunsuriCorecte>2</raspunsuriCorecte>
+	</intrebare>
+</testGrila>
