@@ -1,0 +1,10 @@
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.Form1.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.Properties.Resources.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\bin\Debug\ex7.exe.config
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\bin\Debug\ex7.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\bin\Debug\ex7.pdb
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex7\ex7\obj\Debug\ex7.pdb
