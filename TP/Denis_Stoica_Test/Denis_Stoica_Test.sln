@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Denis_Stoica_Test", "Denis_Stoica_Test.vcxproj", "{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Debug|x64.ActiveCfg = Debug|x64
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Debug|x64.Build.0 = Debug|x64
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Debug|x86.Build.0 = Debug|Win32
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Release|x64.ActiveCfg = Release|x64
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Release|x64.Build.0 = Release|x64
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Release|x86.ActiveCfg = Release|Win32
+		{E11693BF-9C28-4A7D-9FA7-8F7DC62806EA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FB9C91A-C817-4F75-9EDC-A4D41F257B25}
+	EndGlobalSection
+EndGlobal
