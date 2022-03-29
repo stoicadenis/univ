@@ -1,0 +1,5 @@
+zahar;1.5;50
+rosii;2;65
+paine;2.5;30
+iaurt;4.2;48
+salam;3.3;5

@@ -1,0 +1,2 @@
+Produsul cu pretul cel mai mare este: iaurt, pret: 4.2, cantitate: 48.0
+Produsul cu pretul cel mai mic este: zahar, pret: 1.5, cantitate: 50.0
