@@ -1,0 +1,184 @@
+/test 1
+float f(int n,float s){
+	int i=0;
+L3	while(i<n){
+		if(i%2==0)s=s+i;
+L2			else s=s-i;
+		}
+L1	return s;
+	}
+// Call f
+mod=f(2, 3.14)
+	PUSH.i 2
+	PUSH.f 3.14
+	CALL f
+adr_ret: STORE.f 	mod
+
+// CAdrul
+			n	s	adr_ret		old_FP	i 	
+			-3	-2		-1		0		1
+
+		ENTER 1		// nr. var locale
+		PUSH.i 	0
+L3:		FPSTORE.i 	1	//i=0
+		FPLOAD.i 	1	// i pe stiva
+		FPLOAD.i 	-3	// n pe stiva
+		LESS.i 
+		JF	L1
+		FPLOAD.i 	1	// i pe stiva
+		PUSH.i 		2	// 2 pe stiva
+		MOD.i
+		PUSH.i 		0
+		EQ.i
+		JF		L2
+		FPLOAD.f 	-2
+		FPLOAD.i 	1
+		CONV.i.f 		//Conv i->i.0	
+		ADD.f
+		FPSTORE.f 	-2
+		JMP L4
+L2:		FPLOAD.f 	-2
+		FPLOAD.i 	1
+		CONV.i.f 		//Conv i->i.0	
+		SUB.f
+		FPSTORE.f 	-2		
+L4:		JMP L3
+L1:		FPLOAD.f 	-2
+		RET 2		// RETURN cu nr. parametri
+
+// test 5
+int ack(int m,int n){
+	if(m==0)return n+1;
+	else if(m>0&&n==0)return ack(m-1,1);
+	return ack(m-1, ack(m,n-1));
+	}
+
+// apel ack(3,7);
+	PUSH.i 	3
+	PUSH.i	7
+	CALL	ack
+	
+// stiva
+// cadrul functiei:    m=3,      n=7,    adr_revenire,     old_FP,  .... var_locale=0...
+						-3         -2               -1       0            FP[0]
+
+ack:		ENTER 		0			// nr var locale
+			FPLOAD.i	-3
+			PUSH.i		0
+			EQ.i						// m==0?
+			JF				L1
+			FPLOAD.i	-2
+			PUSH.i		1
+			ADD.i				// n+1
+			RET			2		// nr de parametri
+L1:			FPLOAD.i	-3
+			PUSH.i		0
+			GT.i				// m>0
+			FPLOAD.i	-2		// n pe stiva 
+			PUSH.i		0		// 0 pe stiva 
+			EQ.i				// n==0 ?
+			AND					// m>0&&n==0
+			JF				L2
+			FPLOAD.i	-3
+			PUSH.i		1
+			SUB.i					// m-1
+			PUSH.i		1		// m-1, 1
+			CALL		ack		// ack(m-1,1)
+			RET			2
+L2:			FPLOAD.i	-3
+			PUSH.i		1
+			SUB.i					// m-1
+			FPLOAD.i	-3		// m
+			FPLOAD.i	-2		// n
+			PUSH.i		1
+			SUB.i					// n-1
+			CALL			ack		// ack(m,n-1)
+			CALL			ack		// ack(m-1, ack(m,n-1))
+			RET			2			// RETURN cu nr. de argumente
+
+// test 7
+int cnt(int v,int x,int y){
+	if(x>y)return -1;
+	int n=0;
+	while(x<y){
+		n=n+1;
+		y=y-x;
+		}
+	return n;
+	}
+
+// cadrul functiei
+			v	x	y	adr_ret		old_FP	n
+			-4	-3	-2	-1				0	1
+
+		
+		ENTER 1
+		FPLOAD.i -3
+		FPLOAD.i -2
+		GT.i
+		JF 	L1
+		PUSH.i -1
+		RET 2
+L1:		PUSH.i 0
+		FPSTORE.i 1
+L3:		FPLOAD.i -3
+		FPLOAD.i -2
+		LESS.i
+		JF	L2
+		FPLOAD.i 1
+		PUSH.i 1
+		ADD.i
+		FPSTORE.i 1
+		FPLOAD.i -2
+		FPLOAD.i -3
+		SUB.i
+		FPSTORE.i -2
+		JMP L4
+L2: 	FPLOAD.i 1
+		RET 2
+L4:		JMP L3
+
+// test 16
+int h(int a,int b){
+	int n;
+	float f;
+L2:	while(a>b){
+		f=a/(float)b;
+		if(f==(int)f)n=n+1;
+L3:		b=b-1;
+		}
+L1:	return n;
+	}
+
+// cadrul functiei
+		a 	b adr_ret old_FP	n	f
+		-3 -2	-1		0		1	2
+
+		ENTER 2 // nr var locale
+L2:		FPLOAD.i -3 //a
+		FPLOAD.i -2 //b
+		GT.i		// comparatie >
+		JF L1		// in caz de false jump la L1
+		FPLOAD.i -3	// in caz de true se incarca in stiva a
+		CONV.i.f	// convertim a din int in float
+		FPLOAD.i -2	// incarcam b in stiva
+		CONV.i.f	// convertim b din int in float
+		DIV.f		// div
+		FPSTORE.f 2	// stocam in var f rezultatul de la div
+		
+		FPLOAD.f 2	// incarcam pe stiva inca o data rezultatul din f
+		CONV.f.i	// convertim din float in int
+		CONV.i.f	// convertim din int in float pentru comparatie
+		EQ.f		// verificare egalitate dintre cele doua variabile
+		JF L3		// in caz de false salt la L3
+		FPLOAD.i 1	// in caz de true se incarca n in stiva
+		PUSH.i 1	// se adauga constanta 1 in stiva
+		ADD.i		// se aduna cele doua
+		FPSTORE.i 1	// se stocheaza rezultatul in n
+L3:		FPLOAD.i -2	// se incarca in stiva b
+		PUSH.i 1	// se incarca in stiva const 1
+		SUB.i		// se scade dintre cele doua
+		FPSTORE.i -2	// se stocheaza in b rezultatul
+		JMP L2		// se sare la secventa L2 pentru ciclare
+L1:		FPLOAD.i 1	// Se incarca pe stiva rezultatul var n
+		RET 2	// returnam cei 2 parametrii

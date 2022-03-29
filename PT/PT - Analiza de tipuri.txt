@@ -1,0 +1,10 @@
+Reguli de Analiza de tip pentru  LP statice
+Obs. Pentru LP statice tipul unui simbol este cunoscut încă de la compilare și nu mai poate fi schimbat ulterior
+
+
+1- o functie poate fi doar apelata
+2- functiile pot fi apelate doar cu numarul de argumente specificat la definirea lor
+3- daca operatorii au un operand real si unul int, operatia se va face in numere reale
+4- intre real  si int se pot face conversii implicite (de exemplu cand se paseaza un argument unei functii), dar str nu poate fi convertit implicit la nimic
+5- variabilele nu pot fi apelate, ca si cand ar fi functii
+6- nu exista niciun operator care sa accepte tipul str
