@@ -1,0 +1,4 @@
+Ion;director;2021-04-22;8000
+Maria;Secretara;2019-07-22;2500
+Marcel;Ingrijitor;2020-02-13;1800
+Corina;Manager;2014-11-04;5300
