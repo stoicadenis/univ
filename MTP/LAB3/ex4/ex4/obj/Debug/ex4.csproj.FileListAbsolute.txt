@@ -1,0 +1,10 @@
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\bin\Debug\ex4.exe.config
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\bin\Debug\ex4.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\bin\Debug\ex4.pdb
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.Form1.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.Properties.Resources.resources
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.exe
+C:\Users\Denis\Desktop\MTP\LAB3\ex4\ex4\obj\Debug\ex4.pdb
