@@ -1,0 +1,11 @@
+reteta1 Algocalmin 3
+reteta2 Nurofen 1
+reteta5 Avastin 7
+reteta3 Paracetamol 4
+reteta1 Paduten 4
+reteta4 Ibuprofen 2
+reteta2 Tamiflu 8
+reteta5 ACC 20
+reteta5 Euthyrox 5
+reteta1 Bleomycin 7
+reteta1 Ibuprofen 2

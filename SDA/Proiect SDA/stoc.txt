@@ -1,0 +1,10 @@
+Algocalmin 4 10.99
+Nurofen 5 16
+Paduten 6 20
+Avastin 100 10
+Paracetamol 21 7.95
+Ibuprofen 3 15
+Tamiflu 17 56.50
+ACC 2 30
+Euthyrox 70 12.35
+Bleomycin 29 29.99
